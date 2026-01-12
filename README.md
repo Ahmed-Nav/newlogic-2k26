@@ -1,73 +1,61 @@
-# React + TypeScript + Vite
+# ⚡ NewLogic 2K26
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/Built%20With-React%20%7C%20Tailwind%20%7C%20Framer%20Motion-cyan?style=for-the-badge)
 
-Currently, two official plugins are available:
+> **Where Innovation Meets Code.**
+> The official event portal for the National Level Technical Symposium organized by the Department of Computer Science, The New College.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[Click here to view the live site](https://newlogic-2k26.vercel.app)** _(Replace this link with your actual Vercel link after deployment)_
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📸 Screenshots
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Dashboard Preview]
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+![alt text](image.png)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Key Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Cyberpunk Aesthetic:** Custom "Neon" design system with glowing shadows and borders.
+- **Interactive Animations:** High-performance animations using `Framer Motion` (Glitch text, hover states, entrance effects).
+- **3D Environment:** CSS-only 3D perspective grid background.
+- **Dynamic Filtering:** Instant filtering for "On-Stage", "Off-Stage", and "Online" events.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [React](https://react.dev/) (via Vite)
+- **Styling:** [Tailwind CSS v3](https://tailwindcss.com/)
+- **Animation:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## ⚙️ Installation & Setup
+
+If you want to run this project locally:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/Ahmed-Nav/newlogic-2k26.git](https://github.com/Ahmed-Nav/newlogic-2k26.git)
+
+# 2. Enter the directory
+cd newlogic-2k26
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
 ```
