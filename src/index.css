@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #050505;
+  color: white;
+}
+
+.cyber-grid {
+  background-image:
+    linear-gradient(to right, rgb(0, 255, 255) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(0, 255, 255) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: linear-gradient(to bottom, black 10%, transparent 100%);
+  transform: perspective(500px) rotateX(60deg);
+  animation: grid-move 20s linear infinite;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+@keyframes grid-move {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 1000px;
+  }
+}
