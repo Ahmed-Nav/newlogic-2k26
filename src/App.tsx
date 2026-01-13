@@ -26,7 +26,7 @@ function App() {
 
         <div className="relative z-10 text-center flex flex-col items-center">
           <a
-            href="https://www.instagram.com/YOUR_INSTA_ID_HERE"
+            href="https://www.instagram.com/newlogic2k26?igsh=MW0zZ2VmOXBuYWRuZA=="
             target="_blank"
             rel="noopener noreferrer"
             className="mb-8 flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-neon-pink/50 rounded-full text-neon-pink hover:bg-neon-pink hover:text-white transition-all duration-300 animate-bounce group"
