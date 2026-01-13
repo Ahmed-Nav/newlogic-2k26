@@ -18,14 +18,6 @@ export const events: Event[] = [
     formLink: "#",
   },
   {
-    id: "quiz",
-    title: "Tech Quiz",
-    category: "Off-Stage",
-    description: "Test your technical knowledge against the best.",
-    color: "green",
-    formLink: "#",
-  },
-  {
     id: "debugging",
     title: "Debugging",
     category: "Off-Stage",
@@ -52,8 +44,8 @@ export const events: Event[] = [
 
   // --- On Stage Events ---
   {
-    id: "corporate-walk",
-    title: "Corporate Walk",
+    id: "professional-walk",
+    title: "Professional Walk",
     category: "On-Stage",
     description: "Showcase professional elegance and style.",
     color: "pink",
@@ -68,10 +60,18 @@ export const events: Event[] = [
     formLink: "#",
   },
   {
-    id: "adzap",
-    title: "Adzap",
-    category: "On-Stage",
-    description: "Sell the unsellable. Marketing mastery.",
+    id: "quiz",
+    title: "Tech Quiz",
+    category: "Off-Stage",
+    description: "Test your technical knowledge against the best.",
+    color: "pink",
+    formLink: "#",
+  },
+  {
+    id: "paper-presentation",
+    title: "Paper Presentation",
+    category: "Off-Stage",
+    description: "Showcase your innovative research and technical ideas.",
     color: "pink",
     formLink: "#",
   },

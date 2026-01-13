@@ -2,7 +2,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { events } from "./data/events";
 import GlitchText from "./components/GlitchText";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Instagram } from "lucide-react";
+import NeuralBackground from "./components/NeuralBackground";
 
 function App() {
   const [filter, setFilter] = useState<string>("All");
@@ -23,7 +24,18 @@ function App() {
       <div className="relative h-[60vh] flex flex-col items-center justify-center border-b border-gray-800 overflow-hidden">
         <div className="cyber-grid"></div>
 
-        <div className="relative z-10 text-center">
+        <div className="relative z-10 text-center flex flex-col items-center">
+          <a
+            href="https://www.instagram.com/YOUR_INSTA_ID_HERE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mb-8 flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-neon-pink/50 rounded-full text-neon-pink hover:bg-neon-pink hover:text-white transition-all duration-300 animate-bounce group"
+          >
+            <Instagram className="w-4 h-4" />
+            <span className="text-xs font-bold tracking-wider">
+              FOLLOW FOR LIVE UPDATES
+            </span>
+          </a>
           <GlitchText text="NEWLOGIC 2K26" />
           <p className="mt-6 text-xl text-gray-400 max-w-2xl mx-auto px-4">
             Where Innovation Meets Code. <br />
@@ -33,6 +45,7 @@ function App() {
           </p>
         </div>
       </div>
+      <NeuralBackground />
 
       <div className="sticky top-0 z-50 bg-dark-bg/80 backdrop-blur-md py-6 border-b border-gray-800">
         <div className="flex justify-center gap-4 flex-wrap px-2">
