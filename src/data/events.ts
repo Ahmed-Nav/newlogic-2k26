@@ -11,11 +11,11 @@ export const events: Event[] = [
   // --- Off Stage Events ---
   {
     id: "hackathon",
-    title: "Hackathon",
+    title: "Hack-a-thon",
     category: "Off-Stage",
     description: "The ultimate coding sprint. Build, deploy, and conquer.",
     color: "green",
-    formLink: "#",
+    formLink: "https://forms.gle/2aodGcTPXiThJ9n69",
   },
   {
     id: "debugging",
@@ -23,15 +23,15 @@ export const events: Event[] = [
     category: "Off-Stage",
     description: "Find the bugs before they find you.",
     color: "green",
-    formLink: "#",
+    formLink: "https://forms.gle/aCYWvi95PcUX3svn6",
   },
   {
     id: "codeathon",
-    title: "Codeathon",
+    title: "Code-a-thon",
     category: "Off-Stage",
     description: "Competitive programming at its finest.",
     color: "green",
-    formLink: "#",
+    formLink: "https://forms.gle/vz8SV87a3oKnArVW7",
   },
   {
     id: "web-design",
@@ -39,7 +39,7 @@ export const events: Event[] = [
     category: "Off-Stage",
     description: "Craft stunning digital experiences.",
     color: "green",
-    formLink: "#",
+    formLink: "https://forms.gle/e4kkpS5GMYJ9bpNk6",
   },
 
   // --- On Stage Events ---
@@ -49,7 +49,7 @@ export const events: Event[] = [
     category: "On-Stage",
     description: "Showcase professional elegance and style.",
     color: "pink",
-    formLink: "#",
+    formLink: "https://forms.gle/7cMcgtwrna5AhXNB9",
   },
   {
     id: "shipwreck",
@@ -57,7 +57,7 @@ export const events: Event[] = [
     category: "On-Stage",
     description: "Survive the sinking ship with your wit.",
     color: "pink",
-    formLink: "#",
+    formLink: "https://forms.gle/euHWqw3h3ZLw4MPt5",
   },
   {
     id: "quiz",
@@ -65,7 +65,7 @@ export const events: Event[] = [
     category: "Off-Stage",
     description: "Test your technical knowledge against the best.",
     color: "pink",
-    formLink: "#",
+    formLink: "https://forms.gle/LrUzWgzjB5UEWHiC8",
   },
   {
     id: "paper-presentation",
@@ -73,7 +73,7 @@ export const events: Event[] = [
     category: "Off-Stage",
     description: "Showcase your innovative research and technical ideas.",
     color: "pink",
-    formLink: "#",
+    formLink: "https://forms.gle/RtLFmxtiSErr7QG68",
   },
 
   // --- Online Events ---
@@ -83,7 +83,7 @@ export const events: Event[] = [
     category: "Online",
     description: "Dominate the virtual arena.",
     color: "blue",
-    formLink: "#",
+    formLink: "https://forms.gle/Fmd8RjnQ8CWKy13Q8",
   },
   {
     id: "ai-video",
@@ -91,6 +91,6 @@ export const events: Event[] = [
     category: "Online",
     description: "Create cinematic magic using AI tools.",
     color: "blue",
-    formLink: "#",
+    formLink: "https://forms.gle/n2LNCnJ7s8wY13NA6",
   },
 ];
